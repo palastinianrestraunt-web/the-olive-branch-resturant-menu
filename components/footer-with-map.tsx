@@ -70,6 +70,26 @@ export function FooterWithMap() {
 
         <div className="mt-8 pt-6 border-t border-muted">
           <p className="text-center text-sm text-muted-foreground">
+            {t("company", {
+              en: "Company",
+              cs: "Společnost",
+              ar: "الشركة",
+            })}
+            : GLASSEXPORT s.r.o. &middot;{" "}
+            {t("companyId", {
+              en: "Company ID",
+              cs: "IČ",
+              ar: "الرقم التعريفي للشركة",
+            })}
+            : 02715007 &middot;{" "}
+            {t("taxId", {
+              en: "Tax ID",
+              cs: "DIČ",
+              ar: "الرقم الضريبي",
+            })}
+            : CZ02715007
+          </p>
+          <p className="text-center text-sm text-muted-foreground">
             © {new Date().getFullYear()} <RestaurantName />.{" "}
             {t("allRightsReserved", {
               en: "All rights reserved",
