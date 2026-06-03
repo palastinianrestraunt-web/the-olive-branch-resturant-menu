@@ -809,7 +809,7 @@ export const mainMenu: MenuItem[] = [
       cs: "čočka, cibule, mrkev",
       ar: "عدس، بصل، جزر",
     },
-    price: 65,
+    price: 95,
     img: "/placeholder.svg?height=150&width=150",
     isVegan: true,
     isAvailable: true,
@@ -829,7 +829,7 @@ export const mainMenu: MenuItem[] = [
       cs: "kuřecí maso, mrkev, hrášek, brambory, česnek, cibule, koriandr",
       ar: "دجاج، جزر، بازيلاء، بطاطس، ثوم، بصل، كزبرة",
     },
-    price: 75,
+    price: 110,
     img: "/placeholder.svg?height=150&width=150",
     isVegan: false,
     isAvailable: true,
@@ -849,7 +849,7 @@ export const mainMenu: MenuItem[] = [
       cs: "Petržel, máta, cibulka, rajčata, bulgur, olivový olej, citronová šťáva",
       ar: "بقدونس، نعناع، بصل، بندورة، برغل، زيت زيتون، حامض",
     },
-    price: 145,
+    price: 159,
     img: "/placeholder.svg?height=150&width=150",
     isVegan: true,
     isAvailable: true,
@@ -917,46 +917,6 @@ export const mainMenu: MenuItem[] = [
   },
   {
     id: 7,
-    number: "B5",
-    categoryId: 2,
-    name: {
-      en: "Turkish Salad",
-      cs: "Turecký salát",
-      ar: "سلطة تركية",
-    },
-    description: {
-      en: "Tomatoes, Tomato paste, Onions, Parsley, Chilli, Vinegar, Cumin, Olive oil",
-      cs: "rajčata, rajčatový pasta, cibule, petržel, chilli, ocet, kmín, olivový olej",
-      ar: "بندورة، صلصة بندورة، بصل، بقدونس، شطة، خل، كمون، زيت زيتون",
-    },
-    price: 145,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: true,
-    isAvailable: true,
-    allergies: [],
-  },
-  {
-    id: 8,
-    number: "B6",
-    categoryId: 2,
-    name: {
-      en: "Corn Salad",
-      cs: "Kukuřičný salát",
-      ar: "سلطة الذرة",
-    },
-    description: {
-      en: "Corn, Bell peppers, Pickled cucumbers, dill",
-      cs: "kukuřice, paprika, nakládané okurky, kopr",
-      ar: "شبت ، ذرة، فلفل حلو، خيار مخلل",
-    },
-    price: 145,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: true,
-    isAvailable: true,
-    allergies: [],
-  },
-  {
-    id: 9,
     number: "B7",
     categoryId: 2,
     name: {
@@ -976,7 +936,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [8],
   },
   {
-    id: 10,
+    id: 8,
     number: "C1",
     categoryId: 3,
     name: {
@@ -996,7 +956,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [11],
   },
   {
-    id: 11,
+    id: 9,
     number: "C2",
     categoryId: 3,
     name: {
@@ -1016,7 +976,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [8, 11],
   },
   {
-    id: 12,
+    id: 10,
     number: "C3",
     categoryId: 3,
     name: {
@@ -1036,7 +996,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [11],
   },
   {
-    id: 13,
+    id: 11,
     number: "C4",
     categoryId: 3,
     name: {
@@ -1056,7 +1016,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 14,
+    id: 12,
     number: "C5",
     categoryId: 3,
     name: {
@@ -1076,7 +1036,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [7],
   },
   {
-    id: 15,
+    id: 13,
     number: "C6",
     categoryId: 3,
     name: {
@@ -1096,27 +1056,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 16,
-    number: "C7",
-    categoryId: 3,
-    name: {
-      en: "Muhammara",
-      cs: "Muhammara",
-      ar: "محمرة",
-    },
-    description: {
-      en: "Nuts, Bell peppers, Chilli, Olive oil",
-      cs: "ořechy, paprika, chilli, olivový olej",
-      ar: "مكسرات، فلفل حلوة، شطة، زيت زيتون",
-    },
-    price: 145,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: true,
-    isAvailable: true,
-    allergies: [8],
-  },
-  {
-    id: 17,
+    id: 14,
     number: "C8",
     categoryId: 3,
     name: {
@@ -1136,7 +1076,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 18,
+    id: 15,
     number: "D1",
     categoryId: 4,
     name: {
@@ -1156,7 +1096,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [11],
   },
   {
-    id: 19,
+    id: 16,
     number: "D2",
     categoryId: 4,
     name: {
@@ -1176,27 +1116,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [8],
   },
   {
-    id: 20,
-    number: "D3",
-    categoryId: 4,
-    name: {
-      en: "Grilled Chicken Wings",
-      cs: "Grilovaná kuřecí křidélka",
-      ar: "جوانح الدجاج المشوية",
-    },
-    description: {
-      en: "6 Chicken wings, Garlic, Special seasoning, Garlic sauce",
-      cs: "6 kuřecí křídla, česnek, speciální koření, česneková omáčka",
-      ar: "٦ جوانح، ثوم ، توابل خاصة، ثومية",
-    },
-    price: 120,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: false,
-    isAvailable: true,
-    allergies: [3],
-  },
-  {
-    id: 21,
+    id: 17,
     number: "D4",
     categoryId: 4,
     name: {
@@ -1216,27 +1136,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1],
   },
   {
-    id: 22,
-    number: "D6",
-    categoryId: 4,
-    name: {
-      en: "Meat Pie (3 peices)",
-      cs: "Fatajer s masem (3 kusy)",
-      ar: "فطاير لحمة (٣ قطع)",
-    },
-    description: {
-      en: "Lamb meat, Onions, Parsley, Nuts",
-      cs: "těsto plněné jehněčím masem, cibule, petržel, ořechy",
-      ar: "لحمة عجل، بصل، بقدونس، مكسرات",
-    },
-    price: 125,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: false,
-    isAvailable: true,
-    allergies: [1, 8],
-  },
-  {
-    id: 23,
+    id: 18,
     number: "D7",
     categoryId: 4,
     name: {
@@ -1256,7 +1156,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 7],
   },
   {
-    id: 24,
+    id: 19,
     number: "D8",
     categoryId: 4,
     name: {
@@ -1276,7 +1176,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1],
   },
   {
-    id: 25,
+    id: 20,
     number: "D9",
     categoryId: 4,
     name: {
@@ -1296,7 +1196,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 7, 8, 11],
   },
   {
-    id: 26,
+    id: 21,
     number: "E1",
     categoryId: 5,
     name: {
@@ -1316,7 +1216,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [7, 8],
   },
   {
-    id: 27,
+    id: 22,
     number: "E2",
     categoryId: 5,
     name: {
@@ -1336,7 +1236,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [8],
   },
   {
-    id: 28,
+    id: 23,
     number: "E3",
     categoryId: 5,
     name: {
@@ -1356,7 +1256,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 8],
   },
   {
-    id: 29,
+    id: 24,
     number: "E4",
     categoryId: 5,
     name: {
@@ -1376,7 +1276,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1],
   },
   {
-    id: 30,
+    id: 25,
     number: "E5",
     categoryId: 5,
     name: {
@@ -1396,7 +1296,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 11],
   },
   {
-    id: 31,
+    id: 26,
     number: "F1",
     categoryId: 6,
     name: {
@@ -1416,7 +1316,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 3, 7],
   },
   {
-    id: 32,
+    id: 27,
     number: "F2",
     categoryId: 6,
     name: {
@@ -1436,7 +1336,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 3],
   },
   {
-    id: 33,
+    id: 28,
     number: "F3", // was F4, now sequential
     categoryId: 6,
     name: {
@@ -1456,7 +1356,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 11],
   },
   {
-    id: 34,
+    id: 29,
     number: "F4", // was F5, now sequential
     categoryId: 6,
     name: {
@@ -1476,7 +1376,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1],
   },
   {
-    id: 35,
+    id: 30,
     number: "F5", // was F6, now sequential
     categoryId: 6,
     name: {
@@ -1496,7 +1396,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1],
   },
   {
-    id: 36,
+    id: 31,
     number: "F6", // was F7, now sequential
     categoryId: 6,
     name: {
@@ -1516,7 +1416,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 3, 7, 11],
   },
   {
-    id: 37,
+    id: 32,
     number: "F7", // was F8, now sequential
     categoryId: 6,
     name: {
@@ -1536,13 +1436,13 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 3, 7, 11],
   },
   {
-    id: 38,
+    id: 33,
     number: "F8", // was F9, now sequential
     categoryId: 6,
     name: {
-      en: "Mixed Grills For Three People (1050g)",
-      cs: "Mixed gril pro 3 osoby (1050g)",
-      ar: "مشاوي مشكل لثلاث أشخاص (١٠٥٠غ)",
+      en: "Mixed Grills For Four People (1400g)",
+      cs: "Mixed gril pro 4 osoby (1400g)",
+      ar: "مشاوي مشكل لأربع أشخاص (١٤٠٠غ)",
     },
     description: {
       en: "Shish Taouk, Shish Kebeb, Lamb cubes, Chicken wings, French fries/ Rice/ Bulgur, Garlic sauce, Tahini",
@@ -1556,7 +1456,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 3, 7, 11],
   },
   {
-    id: 39,
+    id: 34,
     number: "G1",
     categoryId: 7,
     name: {
@@ -1576,7 +1476,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 4, 7],
   },
   {
-    id: 40,
+    id: 35,
     number: "G2",
     categoryId: 7,
     name: {
@@ -1596,7 +1496,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 4],
   },
   {
-    id: 41,
+    id: 36,
     number: "G3",
     categoryId: 7,
     name: {
@@ -1616,7 +1516,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [4],
   },
   {
-    id: 42,
+    id: 37,
     number: "G4",
     categoryId: 7,
     name: {
@@ -1636,7 +1536,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 4, 7],
   },
   {
-    id: 44,
+    id: 39,
     number: "H1",
     categoryId: 8,
     name: {
@@ -1656,7 +1556,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 45,
+    id: 40,
     number: "H2",
     categoryId: 8,
     name: {
@@ -1676,7 +1576,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 46,
+    id: 41,
     number: "H3",
     categoryId: 8,
     name: {
@@ -1696,7 +1596,67 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 47, // was 48
+    id: 42,
+    number: "H4",
+    categoryId: 8,
+    name: {
+      en: "Ketchup",
+      cs: "Ketchup",
+      ar: "كاتشب",
+    },
+    description: {
+      en: "",
+      cs: "",
+      ar: "",
+    },
+    price: 45,
+    img: "/placeholder.svg?height=150&width=150",
+    isVegan: true,
+    isAvailable: true,
+    allergies: [],
+  },
+  {
+    id: 43,
+    number: "H5",
+    categoryId: 8,
+    name: {
+      en: "Tahini",
+      cs: "Tahini",
+      ar: "طحينة",
+    },
+    description: {
+      en: "",
+      cs: "",
+      ar: "",
+    },
+    price: 45,
+    img: "/placeholder.svg?height=150&width=150",
+    isVegan: true,
+    isAvailable: true,
+    allergies: [11],
+  },
+  {
+    id: 44,
+    number: "H6",
+    categoryId: 8,
+    name: {
+      en: "Hot Pepper Paste",
+      cs: "Papriková pasta",
+      ar: "شطه هريسه حارة",
+    },
+    description: {
+      en: "",
+      cs: "",
+      ar: "",
+    },
+    price: 45,
+    img: "/placeholder.svg?height=150&width=150",
+    isVegan: true,
+    isAvailable: true,
+    allergies: [],
+  },
+  {
+    id: 45,
     number: "I1",
     categoryId: 9,
     name: {
@@ -1716,7 +1676,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 7, 8],
   },
   {
-    id: 48, // was 49
+    id: 46,
     number: "I2",
     categoryId: 9,
     name: {
@@ -1736,7 +1696,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [1, 7, 8],
   },
   {
-    id: 49, // was 50
+    id: 47,
     number: "J1",
     categoryId: 10,
     name: {
@@ -1756,7 +1716,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 50, // was 51
+    id: 48,
     number: "J2",
     categoryId: 10,
     name: {
@@ -1776,7 +1736,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 51, // was 52
+    id: 49,
     number: "J3",
     categoryId: 10,
     name: {
@@ -1796,7 +1756,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 52, // was 53
+    id: 50,
     number: "J4",
     categoryId: 10,
     name: {
@@ -1815,48 +1775,10 @@ export const mainMenu: MenuItem[] = [
     isAvailable: true,
     allergies: [],
   },
+
+
   {
-    id: 53, // was 54
-    number: "J5",
-    categoryId: 10,
-    name: {
-      en: "Pfanner Juice 0.2L",
-      cs: "Pfanner šťáva 0.2L",
-      ar: "عصير بفانر 0.2 لتر",
-    },
-    description: {
-      en: "",
-      cs: "",
-      ar: "",
-    },
-    price: 60,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: false,
-    isAvailable: true,
-    allergies: [],
-  },
-  {
-    id: 54, // was 55
-    number: "J6",
-    categoryId: 10,
-    name: {
-      en: "Frizbe Flavored Soda 0.25L",
-      cs: "Frizbe Ochucená Soda 0.25L",
-      ar: "فريزبي بنكهة 0.25 لتر",
-    },
-    description: {
-      en: "",
-      cs: "",
-      ar: "",
-    },
-    price: 60,
-    img: "/placeholder.svg?height=150&width=150",
-    isVegan: false,
-    isAvailable: true,
-    allergies: [],
-  },
-  {
-    id: 55, // was 56
+    id: 51,
     number: "J7",
     categoryId: 10,
     name: {
@@ -1876,7 +1798,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 56, // was 57
+    id: 52,
     number: "J8",
     categoryId: 10,
     name: {
@@ -1896,7 +1818,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 57, // was 58
+    id: 53,
     number: "J9",
     categoryId: 10,
     name: {
@@ -1916,7 +1838,7 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
   {
-    id: 58, // was 59
+    id: 54,
     number: "J10",
     categoryId: 10,
     name: {
