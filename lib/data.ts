@@ -1481,7 +1481,7 @@ export const mainMenu: MenuItem[] = [
     categoryId: 7,
     name: {
       en: "Sea-bass",
-      cs: "Mořský vlk",
+      cs: "Pražma/Vlk",
       ar: "سمكة القاروس",
     },
     description: {
@@ -1489,7 +1489,7 @@ export const mainMenu: MenuItem[] = [
       cs: "300-350g mořský vlk, česnek, koriandr, citron, hranolky/ rýže/ Bulgur",
       ar: "القاروس، ثوم، كزبرة، ليمون، بطاطس مقلية/ أرز / برغل",
     },
-    price: 135,
+    price: 420,
     img: "/placeholder.svg?height=150&width=150",
     isVegan: false,
     isAvailable: true,
