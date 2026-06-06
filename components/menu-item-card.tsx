@@ -92,6 +92,11 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
               className="text-lg font-semibold rounded-xl bg-olive/10 text-olive border-olive/30 whitespace-nowrap"
             >
               {formatPrice(item.price)}
+              {item.price_per_unit && (
+                <span className="ms-1 text-xs font-normal opacity-70">
+                  / {item.price_per_unit}
+                </span>
+              )}
             </Badge>
           </div>
         </CardHeader>

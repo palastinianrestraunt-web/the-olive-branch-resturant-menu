@@ -30,6 +30,7 @@ export interface MenuItem {
   name: MultilingualText;
   description: MultilingualText;
   price: number;
+  price_per_unit?: string;
   img: string;
   isVegan: boolean;
   isAvailable: boolean;
@@ -1490,6 +1491,7 @@ export const mainMenu: MenuItem[] = [
       ar: "القاروس، ثوم، كزبرة، ليمون، بطاطس مقلية/ أرز / برغل",
     },
     price: 420,
+    price_per_unit: "100g",
     img: "/placeholder.svg?height=150&width=150",
     isVegan: false,
     isAvailable: true,
@@ -1776,7 +1778,6 @@ export const mainMenu: MenuItem[] = [
     allergies: [],
   },
 
-
   {
     id: 51,
     number: "J7",
@@ -1874,14 +1875,14 @@ export function getWeekDayById(id: number): WeekDay | undefined {
 
 export function getMenuItemsByCategory(
   items: MenuItem[],
-  categoryId: number
+  categoryId: number,
 ): MenuItem[] {
   return items.filter((item) => item.categoryId === categoryId);
 }
 
 export function getMenuItemsByDay(
   items: MenuItem[],
-  dayId: number
+  dayId: number,
 ): MenuItem[] {
   return items.filter((item) => item.lunchMenuDayId === dayId);
 }
