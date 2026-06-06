@@ -1490,7 +1490,7 @@ export const mainMenu: MenuItem[] = [
       cs: "300-350g mořský vlk, česnek, koriandr, citron, hranolky/ rýže/ Bulgur",
       ar: "القاروس، ثوم، كزبرة، ليمون، بطاطس مقلية/ أرز / برغل",
     },
-    price: 420,
+    price: 135,
     price_per_unit: "100g",
     img: "/placeholder.svg?height=150&width=150",
     isVegan: false,
